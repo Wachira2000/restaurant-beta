@@ -42,8 +42,8 @@ const ContactPage = () => {
               required className="w-full bg-gray-200 border border-gray-400 rounded-md py-2 px-4 focus:outline-none focus:border-blue-500" />
               </div>
               <div className="mb-4">
-                <label htmlFor="message" placeholder="Your message....." className="block text-gray-700 font-bold mb-2">Message</label>
-                <textarea id="message" name="message" className="w-full bg-gray-200 border border-gray-400 rounded-md py-2 px-4 focus:outline-none focus:border-blue-500"></textarea>
+                <label htmlFor="message" className="block text-gray-700 font-bold mb-2">Message</label>
+                <textarea id="message" name="message" placeholder="Your message....."  className="w-full bg-gray-200 border border-gray-400 rounded-md py-2 px-4 focus:outline-none focus:border-blue-500"></textarea>
               </div>
               <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
             </form>
