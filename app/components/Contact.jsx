@@ -33,16 +33,16 @@ const ContactPage = () => {
               </div>
               <div className="mb-4">
                 <label htmlFor="number" className="block text-gray-700 font-bold mb-2">Phone Number</label>
-                <input type="tel" id="number" name="number" placeholder="Your name"
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number"
               required className="w-full bg-gray-200 border border-gray-400 rounded-md py-2 px-4 focus:outline-none focus:border-blue-500" />
               </div>
               <div className="mb-4">
                 <label htmlFor="email" className="block text-gray-700 font-bold mb-2">Email</label>
-                <input type="email" id="email" name="email" placeholder="Your name"
+                <input type="email" id="email" name="email" placeholder="Your email"
               required className="w-full bg-gray-200 border border-gray-400 rounded-md py-2 px-4 focus:outline-none focus:border-blue-500" />
               </div>
               <div className="mb-4">
-                <label htmlFor="message" className="block text-gray-700 font-bold mb-2">Message</label>
+                <label htmlFor="message" placeholder="Your message....." className="block text-gray-700 font-bold mb-2">Message</label>
                 <textarea id="message" name="message" className="w-full bg-gray-200 border border-gray-400 rounded-md py-2 px-4 focus:outline-none focus:border-blue-500"></textarea>
               </div>
               <button type="submit" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Submit</button>
