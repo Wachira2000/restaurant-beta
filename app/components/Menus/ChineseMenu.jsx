@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-const DrinksMenu = () => {
+const ChineseMenu = () => {
     const menuItems = [
-      { id: 1, name: 'Beverage 1', description: 'Resfreshing Drink', price: '$12', image: '/beverage1.jpeg' },
-      { id: 1, name: 'Beverage 2', description: 'Resfreshing Drink', price: '$12', image: '/beverage2.jpeg' },
-      { id: 1, name: 'Beverage 3', description: 'Resfreshing Drink', price: '$12', image: '/beverage3.jpeg' },
-      { id: 1, name: 'Beverage 4', description: 'Resfreshing Drink', price: '$12', image: '/beverage4.jpeg' },
+      { id: 1, name: 'Chow Mein', description: 'Sumptuous Food.', price: '$19', image: '/item-4.png' },
+      { id: 1, name: 'Spring Rolls', description: 'Sumptuous Food.', price: '$19', image: '/grid__2.png' },
+      { id: 1, name: 'Kung Pao Chicken', description: 'Sumptuous Food.', price: '$19', image: '/grid__3.png' },
+      { id: 1, name: 'Wao', description: 'Sumptuous Food.', price: '$29', image: '/food2.webp' },
     ];
   
     return (
@@ -23,12 +23,12 @@ const DrinksMenu = () => {
         <Image src={item.image} alt={item.name} className="w-full h-64 object-cover" height={100} width={100}/>
         <div className="p-4">
           <h2 className="text-xl text-black font-semibold">{item.name}</h2>
-          <p className="text-gray-700 mb-2">{item.description}</p>
-          <p className="text-gray-900 font-bold">{item.price}</p>
+          <h3 className="text-gray-700 mb-2">{item.description}</h3>
+          <h4 className="text-gray-900 font-bold">{item.price}</h4>
         </div>
       </div>
     );
   };
   
-  export default DrinksMenu;
+  export default ChineseMenu;
   

@@ -23,13 +23,13 @@ const Menu = () => {
   };
 
   return (
-    <section className="py-12 bg-gray-100">
+    <section className="py-24 bg-gray-100">
       <div className="container mx-auto">
-        <h2 className="text-3xl text-black font-bold mb-6">Menu</h2>
-        <div className="flex justify-center mb-8">
-          <button onClick={() => handleFilter('all')} className="mr-4 bg-gray-800 text-white px-4 py-2 rounded-md">All</button>
+        <h2 className="text-5xl text-black font-bold text-center mb-8">Menu</h2>
+        <div className="flex flex-wrap justify-center mb-8">
+          <button onClick={() => handleFilter('all')} className="mr-4 mb-4 bg-gray-800 text-white px-4 py-2 rounded-md">All</button>
           {categories.map((category, index) => (
-            <button key={index} onClick={() => handleFilter(category.name)} className="mr-4 bg-gray-800 text-white px-4 py-2 rounded-md">{category.name}</button>
+            <button key={index} onClick={() => handleFilter(category.name)} className="mr-4 mb-4 bg-gray-800 text-white px-4 py-2 sm:text-center rounded-md">{category.name}</button>
           ))}
         </div>
         {selectedCategory === 'all' && (

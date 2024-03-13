@@ -1,14 +1,18 @@
+
 import Image from "next/image";
 import Header from "./components/Header";
 import HomeSection from "./components/HomeSection";
-import Menu from "./components/Menu";
+import AboutSection from "./components/About";
+import ContactPage from "./components/Contact";
+
 
 export default function Home() {
   return (
    <>
-      <Header />
-      <HomeSection />
-      <Menu />
+     <Header/>
+     <HomeSection/>
+     <AboutSection/>
+     <ContactPage />
       </>
   );
 }

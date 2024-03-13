@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 const HomeSection = () => {
   return (
-    <section className="bg-gray-100 py-20">
+    <section className="bg-gray-100 py-40">
     <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
       <div className="max-w-lg text-center md:text-left md:mr-10 mb-10 md:mb-0">
         <h1 className="text-4xl text-black md:text-6xl font-bold mb-4">Welcome to Our Restaurant</h1>
-        <p className="text-lg md:text-xl text-gray-700 mb-8">Enjoy the best food experience with us. We serve delicious dishes made with fresh ingredients.</p>
+        <h2 className="text-lg md:text-xl text-gray-700 mb-8">Enjoy the best food experience with us. We serve delicious dishes made with fresh ingredients.</h2>
         <Link legacyBehavior href="/menu">
         <a className="bg-gray-800 hover:bg-gray-700 text-white py-3 px-6 rounded-md inline-block text-lg font-medium transition duration-300 ease-in-out">View Menu</a>
           </Link>

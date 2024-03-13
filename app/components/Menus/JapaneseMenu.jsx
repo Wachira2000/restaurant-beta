@@ -24,8 +24,8 @@ const JapaneseMenu = () => {
         <Image src={item.image} alt={item.name} className="w-full h-64 object-cover" height={100} width={100}/>
         <div className="p-4">
           <h2 className="text-xl text-black font-semibold">{item.name}</h2>
-          <p className="text-gray-700 mb-2">{item.description}</p>
-          <p className="text-gray-900 font-bold">{item.price}</p>
+          <h3 className="text-gray-700 mb-2">{item.description}</h3>
+          <h4 className="text-gray-900 font-bold">{item.price}</h4>
         </div>
       </div>
     );

@@ -1,10 +1,10 @@
 import Image from "next/image";
 
-const ItalianMenu = () => {
+const KoreanMenu = () => {
     const menuItems = [
-      { id: 1, name: 'Pizza', description: 'Fresh Pizza.', price: '$15', image: '/pizza.jpg' },
-      { id: 1, name: 'Pasta', description: 'Delicious Pasta.', price: '$7', image: '/food1.png' },
-      { id: 1, name: 'Ravioli', description: 'Delicious Ravioli.', price: '$25', image: '/food2.png' },  
+      { id: 1, name: 'Noodles', description: 'Tasty Food', price: '$18', image: '/item-1.png' },
+      { id: 1, name: 'Tofu', description: 'Tasty Food', price: '$18', image: '/item-2.png' },
+      { id: 1, name: 'Kimchi', description: 'Tasty Food', price: '$18', image: '/item-3.png' },
     ];
   
     return (
@@ -22,12 +22,12 @@ const ItalianMenu = () => {
         <Image src={item.image} alt={item.name} className="w-full h-64 object-cover" height={100} width={100}/>
         <div className="p-4">
           <h2 className="text-xl text-black font-semibold">{item.name}</h2>
-          <p className="text-gray-700 mb-2">{item.description}</p>
-          <p className="text-gray-900 font-bold">{item.price}</p>
+          <h3 className="text-gray-700 mb-2">{item.description}</h3>
+          <h4 className="text-gray-900 font-bold">{item.price}</h4>
         </div>
       </div>
     );
   };
   
-  export default ItalianMenu;
+  export default KoreanMenu;
   
