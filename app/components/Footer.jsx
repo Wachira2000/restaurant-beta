@@ -14,7 +14,7 @@ const Footer = () => {
 				width={100}
 				height={100}
 				alt="logo"
-				  className='py-3'/>
+				  className='py-5'/>
                    </a>
             </Link>
 
