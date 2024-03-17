@@ -9,6 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Restaurant-beta",
   description: "The best restaurant in New York",
+  icon: '/favicon.ico'
 };
 
 export default function RootLayout({ children }) {
