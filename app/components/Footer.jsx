@@ -42,7 +42,7 @@ const Footer = () => {
 
         {/* Copyright Text */}
         <p className="text-gray-400 text-center lg:text-right lg:ml-4 lg:order-2"> {/* Added lg:ml-4 and lg:order-2 */}
-          &copy; {new Date().getFullYear()} Everest. All Rights Reserved.
+          &copy; {new Date().getFullYear()} NetKrafter. All Rights Reserved.
         </p>
       </div>
     </footer>
